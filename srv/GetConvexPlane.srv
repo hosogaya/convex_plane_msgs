@@ -1,0 +1,4 @@
+grid_map_msgs/GridMap map
+int32 label
+---
+ConvexPlane plane
