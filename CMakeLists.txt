@@ -39,6 +39,8 @@ set(dependencies
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ConvexPlane.msg"
+  "msg/ConvexPlanes.msg"
+  "msg/ConvexPlanesWithGridMap.msg"
   "srv/GetConvexPlane.srv"
   DEPENDENCIES ${dependencies}
 )
